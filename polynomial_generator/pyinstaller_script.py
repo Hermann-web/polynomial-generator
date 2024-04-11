@@ -20,7 +20,7 @@ def install():
             path_to_main,
             "--onefile",
             "--windowed",
-            "-n polynomial-generator",
+            "-n=polynomial-generator",
             # other pyinstaller options...
         ]
     )

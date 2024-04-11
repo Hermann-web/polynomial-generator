@@ -12,7 +12,7 @@ Date: 2024/04/11
 import tkinter as tk
 from tkinter import ttk
 
-from polynomial_generator.polynomial import generate_polynomial_expression
+from polynomial_generator import generate_polynomial_expression
 
 
 class PolynomialGeneratorApp:

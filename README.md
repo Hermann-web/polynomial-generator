@@ -45,6 +45,22 @@ degree: 3
 Polynomial: x^3 + x^2*y + x^2*z + x*y^2 + x*y*z + x*z^2 + y^3 + y^2*z + y*z^2 + z^3
 ```
 
+## Using the Function in Your Python Scripts
+
+Alternatively, you can use the `generate_polynomial_expression` function directly in your Python scripts. Here's how to import and use it:
+
+```python
+from polynomial_generator import generate_polynomial_expression
+
+variables = ['x', 'y', 'z']
+degree = 2
+
+first_term, polynomial = generate_polynomial_expression(variables, degree)
+
+print(f"Polynomial: {first_term} --> {polynomial}")
+# output: Polynomial: (x + y + z)^2 --> x^2 + x*y + x*z + y^2 + y*z + z^2
+```
+
 ## Graphical User Interface (GUI)
 
 After installation, you can run the Polynomial Generator GUI application using the following command:

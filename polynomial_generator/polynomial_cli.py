@@ -6,7 +6,7 @@ Date: 2024/04/11
 
 import argparse
 
-from polynomial_generator.polynomial import generate_polynomial_expression
+from polynomial_generator import generate_polynomial_expression
 
 
 def main():
