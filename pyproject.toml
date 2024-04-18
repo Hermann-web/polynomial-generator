@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "polynomial-generator"
-version = "0.1.1"
+version = "0.1.2a1"
 description = "A Python package for generating polynomial expressions"
 authors = ["Hermann Agossou <agossouhermann7@gmail.com>"]
 license = "MIT"
